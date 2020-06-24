@@ -27,7 +27,7 @@ public class TestInter {
 
     //JEMTER LOAD
 	//controller[http]      service[业务代码]   dao[压测：SQL]  性能指标  很低 加机器
-	//性能优化：还原服务器原本应该有的性能
+	//性能优化：还原服务器原本应该有的性能！
 
 	@Test
 	public void testInterface() throws ExecutionException, InterruptedException {
