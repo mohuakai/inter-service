@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3a849ba-00a9-45fd-96d3-a7d0712f76de" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tool/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\tool\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1diw1Rwg9EUUVeMHhqauwMIHbd6" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot_hello" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Application.SocketTest">
+    <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.jms.test.BIOServer" />
+      <module name="my-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.jms.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.jms.test.SocketTest" />
+      <module name="my-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.jms.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInter (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TestInter" />
+      <module name="inter-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestInter" />
+      <module name="inter-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="my-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInter.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inter-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestInter" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInter.testInterfaceo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inter-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestInter" />
+      <option name="METHOD_NAME" value="testInterfaceo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springboot_hello.SpringbootHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SocketTest" />
+        <item itemvalue="Application.BIOServer" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.TestInter.testInterfaceo" />
+        <item itemvalue="JUnit.TestInter.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3a849ba-00a9-45fd-96d3-a7d0712f76de" name="Default Changelist" comment="" />
+      <created>1592921005926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592921005926</updated>
+      <workItem from="1592921007677" duration="1715000" />
+      <workItem from="1592923179442" duration="322000" />
+      <workItem from="1592979966066" duration="5431000" />
+      <workItem from="1593008529159" duration="3258000" />
+      <workItem from="1593035175085" duration="3290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1592994880713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1592994880713" />
+    <state x="477" y="89" key="#TestInter" timestamp="1592994711490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="89" key="#TestInter/0.0.1536.824@0.0.1536.824" timestamp="1592994711490" />
+    <state x="477" y="89" width="583" height="646" key="#TestInter_(1)" timestamp="1592994851316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="89" width="583" height="646" key="#TestInter_(1)/0.0.1536.824@0.0.1536.824" timestamp="1592994851316" />
+    <state x="549" y="105" key="FileChooserDialogImpl" timestamp="1593039232046">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="105" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593039232046" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1593011808797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593011808797" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1593011808797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593011808797" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1593011808797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593011808797" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1593011808797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593011808797" />
+    <state width="1493" height="162" key="GridCell.Tab.1.bottom" timestamp="1593004386632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593004386632" />
+    <state width="1493" height="162" key="GridCell.Tab.1.center" timestamp="1593004386631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593004386631" />
+    <state width="1493" height="162" key="GridCell.Tab.1.left" timestamp="1593004386631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593004386631" />
+    <state width="1493" height="162" key="GridCell.Tab.1.right" timestamp="1593004386631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593004386631" />
+    <state x="408" y="116" key="NewModule_or_Project.wizard" timestamp="1592994377912">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1592994377912" />
+    <state x="344" y="0" key="SettingsEditor" timestamp="1593039238104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="344" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593039238104" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springboot_hello$TestInter_main.ic" NAME="TestInter.main Coverage Results" MODIFIED="1592994760605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

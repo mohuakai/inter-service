@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--模块版本号-->
+    <modelVersion>4.0.0</modelVersion>
+    <!--父级版本的引入，引入之后会默认继承父级的所有配置-->
+    <!--通过浏览父级版本发现里面还引用了父级版本，继续往上看，会发现它进行了将来有可能用到的所有功能的版本，所以我们可以
+    把这个父级版本看成是整个springboot的版本控制中心，有了它，我们导入依赖就不用写版本号了，如果没有在这里面进行管理的依赖
+    我们还是需要单独写上版本号-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <!--你新建工程的时候进行的设置，项目的描述信息-->
+    <!--项目的包路径-->
+    <groupId>com.study</groupId>
+    <!--项目的工程名-->
+    <artifactId>springboot_hello</artifactId>
+    <!--项目的版本号-->
+    <version>0.0.1-SNAPSHOT</version>
+    <!--项目的名称-->
+    <name>springboot_hello</name>
+    <!--项目的描述-->
+    <description>Demo project for Spring Boot</description>
+    <!--构建项目所需要的所有公共变量-->
+    <properties>
+        <!--还可以设置编码格式之类-->
+        <!--JDK版本-->
+        <java.version>1.8</java.version>
+    </properties>
+    <!--项目所需要的依赖配置，Spring Boot 体系内的依赖组件不需要填写具体版本号，
+        spring-boot-starter-parent 维护了体系内所有依赖包的版本信息。-->
+    <!--spring-boot-starter：springboot的启动器-->
+    <dependencies>
+        <!--web模块的支持，打开看里面就可以发现里面引入了所有跟web模块有关的依赖打包在了一起-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--测试模块的支持-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+    <!--构建配置-->
+    <build>
+        <!--进行整个工程打jar包的插件-->
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
